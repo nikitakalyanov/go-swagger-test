@@ -1,0 +1,12 @@
+get:
+  produces:
+    - "application/json"
+  responses:
+    200:
+      description: "OK"
+      schema:
+        $ref: "definitions/resp2.yml#/Resp2"
+    500:
+      description: "Internal server error"
+      schema:
+        $ref: "definitions/errors.yml#/ErrorResponse"

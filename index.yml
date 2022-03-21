@@ -1,0 +1,9 @@
+swagger: "2.0"
+host: "localhost"
+schemes:
+  - "http"
+paths:
+  /mypath1:
+    $ref: paths/mypath1.yml
+  /mypath2:
+    $ref: paths/mypath2.yml
